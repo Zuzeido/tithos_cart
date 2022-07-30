@@ -225,7 +225,7 @@ const menu = [
     id:6,
     title: 'Normal',
     desc: 'Lechuga, tomate, queso y salsa Tithos' ,
-    price: '99',
+    price: '4,50',
     img:'./images/hnormal.jpeg',
     category: 'Hamburguesas y Sandwiches',
   },
