@@ -1,42 +1,23 @@
-import React, { useState } from "react";
-import Menu from "./Menu";
-import Categories from "./Categories";
-import items from "./data";
-import logo from "./logo.jpeg";
+import React  from "react";
+import Inicio from "./Inicio";
+import Cafeteria from "./Cafeteria"
+import Taberna from "./Taberna";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom"
 
-const allCategories = ["all", ...new Set(items.map((item) => item.category))];
-
-const App = () => {
-  const [menuItems, setMenuItems] = useState(items);
-  const [activeCategory, setActiveCategory] = useState("");
-  const [categories] = useState(allCategories);
-
-  const filterItems = (category) => {
-    setActiveCategory(category);
-    if (category === "all") {
-      setMenuItems(items);
-      return;
-    }
-    const newItems = items.filter((item) => item.category === category);
-    setMenuItems(newItems);
-  };
+function App() {
   return (
-    <main>
-      <section className="menu section">
-        <div className="title">
-          <img src={logo} alt="logo" className="logo" />
-          <h2>Nuestra Carta - Cafeteria Tithos</h2>
-          <div className="underline"></div>
-        </div>
-        <Categories
-          categories={categories}
-          activeCategory={activeCategory}
-          filterItems={filterItems}
-        />
-        <Menu items={menuItems} />
-      </section>
-    </main>
-  );
-};
-
-export default App;
+    <Router>
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/cafeteria" element={<Cafeteria />} />
+        <Route path="/taberna" element={<Taberna />} />
+      </Routes>
+    </Router>
+    
+  )
+}
+export default App
