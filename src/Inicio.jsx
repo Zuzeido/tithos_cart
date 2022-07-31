@@ -7,11 +7,11 @@ function Inicio() {
       <section className="menu section">
         <div className="title">
           <img src={logo} alt="logo" className="logo" />
-            <h2><a href="/cafeteria" >Nuestra Cafeteria</a></h2> 
+            <h2><a href="/cafeteria" target="_blank" rel="noreferrer">Nuestra Cafeteria</a></h2> 
             <div className='underline-text' />
             <h2>Nuestra Taberna</h2>
             <div className='underline-text' />
-            <h2>Casa Salamanca</h2>
+            <h2><a href="http://asadordesalamanca.com/" target="_blank" rel="noreferrer">Casa Salamanca</a></h2>
             <div className='underline-text' />
         </div>
     </section>
