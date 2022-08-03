@@ -96,12 +96,12 @@ a {
   cursor: pointer;
   transition: all 0.3s linear;
   border-radius: 0.25rem;
-   border: solid 1px black;
+  border: solid 1px black;
   margin: 0.5rem;
 }
 
 .active {
-  border-bottom: 2px solid;
+  background-color: #c59d5f;
 }
 
 .section-center {
