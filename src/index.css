@@ -110,6 +110,7 @@ a {
   max-width: 1170px;
   display: grid;
   gap: 3rem 2rem;
+  margin-bottom: 50px;
   /*justify-items: center; */
 }
 
