@@ -172,3 +172,13 @@ a {
     height: 150px;
   }
 }
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-footer {
+  color: white;
+}

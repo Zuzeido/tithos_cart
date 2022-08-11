@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import Categories from "./Categories";
 import items from "./data";
 import logo from "./logo.jpeg";
+import Footer from "./Footer";
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
@@ -35,8 +36,9 @@ const App = () => {
         />
         <Menu items={menuItems} />
       </section>
+      <Footer />
     </main>
-  )
+  );
 };
 
 export default App;
