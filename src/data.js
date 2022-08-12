@@ -7,6 +7,7 @@ const menu = [
     price: "8",
     img: "./images/fingers.jpeg",
     desc: "Tiras de pollo rebozadas acompañadas de patatas fritas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 11,
@@ -15,6 +16,12 @@ const menu = [
     price: "12",
     img: "./images/tabla.jpeg",
     desc: "Jamón ibérico y queso curado",
+    alergenos: [
+      {
+        gluten: "./images/alergenos/gluten.png",
+        otros: "./images/fingers.jpeg",
+      },
+    ],
   },
   {
     id: 12,
@@ -23,6 +30,7 @@ const menu = [
     price: "13",
     img: "./images/ahumados.jpeg",
     desc: "Ideal para compartir entre amigos y familia",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 13,
@@ -31,6 +39,7 @@ const menu = [
     price: "12,50",
     img: "./images/huevos.jpeg",
     desc: "Riquiíssimosssss",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 14,
@@ -39,6 +48,7 @@ const menu = [
     price: "9,90",
     img: "./images/fajitas.jpeg",
     desc: "¡¡NUEVO!!",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 15,
@@ -47,6 +57,7 @@ const menu = [
     price: "15",
     img: "./images/pulpo.jpeg",
     desc: "Pulpo a la gallega con pimentón de la vera y patata cocida",
+    alergenos: "./images/alergenos/gluten.png",
   },
   /* Raciones */
   {
@@ -55,6 +66,7 @@ const menu = [
     price: "8,50",
     img: "./images/oreja.jpeg",
     desc: "",
+    alergenos: "./images/alergenos/gluten.png",
     category: "Raciones",
   },
   {
@@ -64,6 +76,7 @@ const menu = [
     img: "./images/patatas.webp",
     desc: "",
     category: "Raciones",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 22,
@@ -72,6 +85,7 @@ const menu = [
     img: "./images/calamares.jpeg",
     desc: "",
     category: "Raciones",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 23,
@@ -80,6 +94,7 @@ const menu = [
     img: "./images/chopitos.webp",
     desc: "",
     category: "Raciones",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 24,
@@ -88,6 +103,7 @@ const menu = [
     img: "./images/morcilla.jpeg",
     desc: "",
     category: "Raciones",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 25,
@@ -96,6 +112,7 @@ const menu = [
     img: "./images/picadillo.jpeg",
     desc: "",
     category: "Raciones",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 26,
@@ -104,12 +121,14 @@ const menu = [
     img: "./images/lacon.jpeg",
     desc: "",
     category: "Raciones",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 27,
     title: "Sepia a la plancha",
     price: "10",
     img: "./images/sepia.jpeg",
+    alergenos: "./images/alergenos/gluten.png",
     desc: "",
     category: "Raciones",
   },
@@ -118,6 +137,7 @@ const menu = [
     title: "Alitas de pollo",
     price: "9",
     img: "./images/alitas.jpg",
+    alergenos: "./images/alergenos/gluten.png",
     desc: "",
     category: "Raciones",
   },
@@ -130,6 +150,7 @@ const menu = [
     desc: "Pimientos asados acompañados de láminasde ventresca sobre una cama de lechugas al aliño",
     img: "./images/lamayor.jpeg",
     category: "Ensaladas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 31,
@@ -138,6 +159,7 @@ const menu = [
     desc: "Mezclum de lechugas, tomates de la huerta, tiras de pollo, dados de pan tostado, queso parmesano y salsa Cesar",
     img: "./images/cesar.jpeg",
     category: "Ensaladas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 32,
@@ -146,6 +168,7 @@ const menu = [
     desc: "Mezclum de lechugas, tomate , cebolla, bonito del norte y espárragos blancos",
     img: "./images/mixta.jpeg",
     category: "Ensaladas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   /* Tostas */
   {
@@ -155,6 +178,7 @@ const menu = [
     img: "./images/jamon.jpeg",
     price: "8",
     category: "Tostas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 41,
@@ -163,6 +187,7 @@ const menu = [
     img: "./images/salmon.webp",
     price: "6,90",
     category: "Tostas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 42,
@@ -171,6 +196,7 @@ const menu = [
     img: "./images/anchoas.jpeg",
     price: "6,90",
     category: "Tostas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 43,
@@ -179,6 +205,7 @@ const menu = [
     img: "./images/gulas.jpeg",
     price: "6,90",
     category: "Tostas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 44,
@@ -187,6 +214,7 @@ const menu = [
     img: "./images/ventresca.jpeg",
     price: "6,90",
     category: "Tostas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 45,
@@ -195,6 +223,7 @@ const menu = [
     img: "./images/extremeña.jpeg",
     price: "6,90",
     category: "Tostas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 46,
@@ -203,6 +232,7 @@ const menu = [
     img: "./images/tithostosta.jpeg",
     price: "7,50",
     category: "Tostas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   /* Tortillas */
   {
@@ -212,6 +242,7 @@ const menu = [
     img: "./images/tortilla-patatas.jpeg",
     price: "8,90",
     category: "Tortillas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 51,
@@ -220,6 +251,7 @@ const menu = [
     img: "./images/tortilla-paisana.jpeg",
     price: "8,90",
     category: "Tortillas",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 6,
@@ -228,6 +260,7 @@ const menu = [
     price: "4,50",
     img: "./images/hnormal.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 61,
@@ -236,6 +269,7 @@ const menu = [
     price: "4,50",
     img: "./images/htithos.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 62,
@@ -244,6 +278,7 @@ const menu = [
     price: "2,50",
     img: "./images/smixto.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 63,
@@ -252,6 +287,7 @@ const menu = [
     price: "3,50",
     img: "./images/smixtohuevo.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 64,
@@ -260,6 +296,7 @@ const menu = [
     price: "4",
     img: "./images/svegetal.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 65,
@@ -268,6 +305,7 @@ const menu = [
     price: "4,70",
     img: "./images/svegetalhuevo.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 67,
@@ -276,6 +314,7 @@ const menu = [
     price: "5",
     img: "./images/stithos.png",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 68,
@@ -284,6 +323,7 @@ const menu = [
     price: "4",
     img: "./images/blomo.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 69,
@@ -292,6 +332,7 @@ const menu = [
     price: "5",
     img: "./images/bqueso.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 70,
@@ -300,6 +341,7 @@ const menu = [
     price: "5",
     img: "./images/bvegetal.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 72,
@@ -308,6 +350,7 @@ const menu = [
     price: "4,60",
     img: "./images/btortilla.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 73,
@@ -316,6 +359,7 @@ const menu = [
     price: "5",
     img: "./images/blacon.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 74,
@@ -324,6 +368,7 @@ const menu = [
     price: "4",
     img: "./images/bbacon.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 75,
@@ -332,134 +377,156 @@ const menu = [
     price: "4,50",
     img: "./images/batun.jpeg",
     category: "Hamburguesas y Sandwiches",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 8,
     title: "Café + barrita con tomate o tostada de mantequeilla y mermelada",
     desc: "",
     price: "2,60",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 81,
     title: "Café + 1/2 barrita con tomate",
     desc: "",
     price: "2,90",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 82,
     title: "Café + tostada o barrita + zumo de naranja natural",
     desc: "",
     price: "4,10",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 83,
     title: "Tostada ibérica",
     desc: "",
     price: "4,90",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 84,
     title: "Bizcochos caseros",
     desc: "",
     price: "2,50",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 85,
     title: "Porra",
     desc: "",
     price: "0,65",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 86,
     title: "Churro",
     desc: "",
     price: "0,55",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 87,
     title: "Tortitas con nata y sirope",
     desc: "",
     price: "3,50",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 88,
     title: "Zumo de naranja natural",
     desc: "",
     price: "2,50",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Desayunos",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 89,
     title: "Bizcocho de zanahoria",
     desc: "",
     price: "2,50",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Postres",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 890,
     title: "Natillas con canela",
     desc: "",
     price: "3,50",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Postres",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 891,
     title: "Flan casero",
     desc: "",
     price: "3,50",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Postres",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 892,
     title: "Coulant de chocolate con helado y nata",
     desc: "",
     price: "5,00",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Postres",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 893,
     title: "Brownie con helado",
     desc: "",
     price: "5,00",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Postres",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 894,
     title: "Tarta de queso",
     desc: "",
     price: "5,00",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Postres",
+    alergenos: "./images/alergenos/gluten.png",
   },
   {
     id: 895,
     title: "Helados",
     desc: "",
     price: "3,50",
-    img: "./images/batun.jpeg",
+    img: "",
     category: "Postres",
+    alergenos: [
+      {
+        gluten: "./images/alergenos/gluten.png",
+        otros: "./images/alergenos/gluten.png",
+      },
+    ],
   },
 ];
 export default menu;

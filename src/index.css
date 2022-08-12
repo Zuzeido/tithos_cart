@@ -48,9 +48,9 @@ p {
     width: 95vw;
   }
 }
-.menu {
+ .menu {
   /* padding: 5rem 0; */
-}
+} 
 .title {
   text-align: center;
   margin-bottom: 2rem;
@@ -181,4 +181,18 @@ a {
 
 .text-footer {
   color: white;
+}
+
+.alergenos {
+  display: flex;
+  align-items: center;
+}
+
+.alergenosImg {
+  padding: 10px;
+}
+
+.alergenosText {
+  color: black;
+  font-weight: 600;
 }
