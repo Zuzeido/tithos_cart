@@ -4,7 +4,7 @@ const Menu = ({ items }) => {
   return (
     <div className="section-center">
       {items.map((item) => {
-        const { id, title, img, desc, price, alergenos } = item;
+        const { id, title, img, desc, price, } = item;
 
         return (
           <article key={id} className="menu-item">

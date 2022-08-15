@@ -5,7 +5,7 @@ import items from "./data";
 import logo from "./logo.jpeg";
 import Footer from "./Footer";
 
-const allCategories = ["all", ...new Set(items.map((item) => item.category))];
+const allCategories = [ ...new Set(items.map((item) => item.category))];
 
 const App = () => {
   const [menuItems, setMenuItems] = useState(items);
